@@ -62,7 +62,7 @@ export default function HalamanUtama() {
   
 
   const db = getFirestore();
-  const openai = new OpenAI({ apiKey: process.env.REACT_APP_OPENAI_API_KEY ,dangerouslyAllowBrowser: true});
+  const openai = new OpenAI({ apiKey: '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' ,dangerouslyAllowBrowser: true});
 
 
   const callGPTAPI = async () => {
